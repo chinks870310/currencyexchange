@@ -34,9 +34,9 @@
 				</configuration>
 				 -->
 				<configuration>
-					<toolkitInstallDir>C:\Program Files\IBM\ACE\11.0.0.8\tools</toolkitInstallDir>					
+					<toolkitInstallDir>C:\PROGRA~1\IBM\ACE\11.0.0.8\tools</toolkitInstallDir>					
 					<barName>/currencyexchange/BARs/ace/currencyexchange.bar</barName>
-					<workspace>C:\Users\Chin\git\currency-exchange-rates\</workspace>
+					<workspace>C:\Users\Chin\git\currencyexchange\</workspace>
 					<versionString />
 					<cleanBuild>true</cleanBuild>
 					<deployAsSource>true</deployAsSource>
