@@ -33,6 +33,7 @@
 					<applyBarOverride>true</applyBarOverride>
 				</configuration>
 				 -->
+				 <!-- 
 				<configuration>
 					<toolkitInstallDir>C:\PROGRA~1\IBM\ACE\11.0.0.8\tools</toolkitInstallDir>					
 					<barName>/currencyexchange/BARs/ace/currencyexchange.bar</barName>
@@ -48,7 +49,24 @@
 					<applyBarOverride>true</applyBarOverride>
 					<aceRunDir>C:\PROGRA~1\IBM\ACE\11.0.0.8\server\bin</aceRunDir>
 				</configuration>
-
+				 -->
+				 <configuration>
+					<toolkitInstallDir>C:\PROGRA~1\IBM\ACE\11.0.0.8\tools</toolkitInstallDir>					
+					<barName>${project.build.directory}/ace/${project.artifactId}.bar</barName>
+					<workspace>${eclipse.workspace}</workspace>
+					<versionString />
+					<cleanBuild>true</cleanBuild>
+					<deployAsSource>true</deployAsSource>
+					<esql21>false</esql21>
+					<debugWorkspace>true</debugWorkspace>
+					<applyBarOverride>true</applyBarOverride>
+					<aceRunDir>${ace.rundir}</aceRunDir>
+					<applicationName>${project.artifactId}</applicationName>
+					<configPropFileDirectory>${basedir}\properties</configPropFileDirectory>
+					<defaultPropertiesFile>${project.build.directory}/ace/${project.artifactId}.properties</defaultPropertiesFile>
+					<debugWorkspace>true</debugWorkspace>
+					<applyBarOverride>true</applyBarOverride>
+				</configuration>
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
